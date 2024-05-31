@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Social Media Dashboard</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="dashboard">
+      <header>
+        <div>
+          <h1>Social Media Dashboard</h1>
+          <p>Total Followers: 23,004</p>
+        </div>
+        <!-- Rounded switch -->
+        <div class="row">
+          <p id="theme">Light mode</p>
+          <label class="switch">
+            <input type="checkbox" id="dark-mode-switch" />
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </header>
+      <div class="followers">
+        <div class="card facebook">
+          <div class="image">
+            <img
+              src="./images/icon-facebook.svg"
+              alt="Facebook"
+              height="20px"
+              width="20px"
+            />
+            <h6>@ndickers</h6>
+          </div>
+          <h2 id="followers1">1987</h2>
+          <p>FOLLOWERS</p>
+          <span>+12 Today</span>
+        </div>
+        <div class="card twitter">
+          <div class="image">
+            <img
+              src="./images/icon-twitter.svg"
+              alt="Twitter"
+              height="20px"
+              width="20px"
+            />
+            <h6>@ifan</h6>
+          </div>
+          <h2 id="followers2">1044</h2>
+          <p>FOLLOWERS</p>
+          <span>+99 Today</span>
+        </div>
+        <div class="card instagram">
+          <div class="image">
+            <img
+              src="./images/icon-instagram.svg"
+              alt="Instagram"
+              height="20px"
+              width="20px"
+            />
+            <h6>@victor</h6>
+          </div>
+          <h2 id="followers3">11k</h2>
+          <p>FOLLOWERS</p>
+          <span>+1099 Today</span>
+        </div>
+        <div class="card youtube">
+          <div class="image">
+            <img
+              src="./images/icon-youtube.svg"
+              alt="YouTube"
+              height="20px"
+              width="20px"
+            />
+            <h6>@anthony</h6>
+          </div>
+          <h2 id="followers4">8239</h2>
+          <p>SUBSCRIBERS</p>
+          <span class="negative">-144 Today</span>
+        </div>
+      </div>
+      <div class="overview">
+        <h2>Overview - Today</h2>
+        <div class="grid">
+          <div class="card small facebook">
+            <div>
+              <p>Page Views</p>
+              <h3 id="following1">87</h3>
+            </div>
+            <div class="pages">
+              <img
+                src="./images/icon-facebook.svg"
+                alt="facebook"
+                height="20px"
+                width="20px"
+              />
+              <span>+3%</span>
+            </div>
+          </div>
+          <div class="card small facebook">
+            <div>
+              <p>Likes</p>
+              <h3 id="public_repos1">52</h3>
+            </div>
+            <div class="pages">
+              <img
+                src="./images/icon-facebook.svg"
+                alt="facebook"
+                height="20px"
+                width="20px"
+              />
+              <span class="negative">-2%</span>
+            </div>
+          </div>
+          <div class="card small instagram">
+            <div>
+              <p>Likes</p>
+              <h3 id="following2">5462</h3>
+            </div>
+            <div class="pages">
+              <img
+                src="./images/icon-instagram.svg"
+                alt="instagram"
+                height="20px"
+                width="20px"
+              />
+              <span>+2257%</span>
+            </div>
+          </div>
+          <div class="card small instagram">
+            <div>
+              <p>Profile Views</p>
+              <h3 id="public_repos2">52k</h3>
+            </div>
+            <div class="pages">
+              <img
+                src="./images/icon-instagram.svg"
+                alt="instagram"
+                height="20px"
+                width="20px"
+              />
+              <span>+1375%</span>
+            </div>
+          </div>
+          <div class="card small twitter">
+            <div>
+              <p>Retweets</p>
+              <h3 id="following3">117</h3>
+            </div>
+            <div class="pages">
+              <img
+                src="./images/icon-twitter.svg"
+                alt="twitter"
+                height="20px"
+                width="20px"
+              />
+              <span>+303%</span>
+            </div>
+          </div>
+          <div class="card small twitter">
+            <div>
+              <p>Likes</p>
+              <h3 id="public_repos3">507</h3>
+            </div>
+            <div class="pages">
+              <img
+                src="./images/icon-twitter.svg"
+                alt="twitter"
+                height="20px"
+                width="20px"
+              />
+              <span>+553%</span>
+            </div>
+          </div>
+          <div class="card small youtube">
+            <div>
+              <p>Likes</p>
+              <h3 id="following4">107</h3>
+            </div>
+            <div class="pages">
+              <img
+                src="./images/icon-youtube.svg"
+                alt="youtube"
+                height="20px"
+                width="20px"
+              />
+              <span class="negative">-19%</span>
+            </div>
+          </div>
+          <div class="card small youtube">
+            <div>
+              <p>Total Views</p>
+              <h3 id="public_repos4">1407</h3>
+            </div>
+            <div class="pages">
+              <img
+                src="./images/icon-youtube.svg"
+                alt="youtube"
+                height="20px"
+                width="20px"
+              />
+              <span class="negative">-12%</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
